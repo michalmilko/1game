@@ -1,0 +1,327 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'IBM Plex Sans Condensed', sans-serif;
+   
+   
+  
+   
+}
+h2{
+   /* margin: 50px; */
+   text-align: center;
+   font-size: 50px;
+   color: #03C4A1;
+}
+body{
+   /* background-color: #892CDC; */
+}
+.celahra{
+   
+   display: flex;
+   /* flex-direction: row; */
+  
+   
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+
+}
+.hra{
+   border: #03C4A1 7px solid;
+   border-radius: 20px;
+   height: auto;
+   width: auto;
+   background: #EEEEEE;
+
+}
+
+.tlacitko{
+   display: flex;
+   justify-content: center;
+}
+#obnovit{
+   height: auto;
+   margin-bottom: 30px;
+   color: black;
+   font-size: 25px;
+   padding: 15px 30px;
+   text-align: center;
+   border-radius: 20px;
+   background: #7B6CF6;
+   border: black;
+   
+}
+#obnovit:hover{
+   background: red;
+
+}
+#prvy{
+   display: flex;
+   flex-direction: row;
+}
+
+                  #prvy1{
+                  border: #03C4A1 3px solid;
+                  height: 200px;
+                  width: 200px;
+
+                  }
+                  #prvy2{
+                  border: #03C4A1 3px solid;
+                  height: 200px;
+                  width: 200px;
+                  }
+                  #prvy3{
+                  border: #03C4A1 3px solid;
+                  height: 200px;
+                  width: 200px;
+                  }
+                  #prvy4{
+                  border: #03C4A1 3px solid;
+                  height: 200px;
+                  width: 200px;
+                  }
+                  #prvy5{
+                  border: #03C4A1 3px solid;
+                  height: 200px;
+                  width: 200px;
+                  }
+                  #prvy6{
+                  border: #03C4A1 3px solid;
+                  height: 200px;
+                  width: 200px;
+                  }
+                  #prvy7{
+                  border: #03C4A1 3px solid;
+                  height: 200px;
+                  width: 200px;
+                  }
+                  #prvy8{
+                  border: #03C4A1 3px solid;
+                  height: 200px;
+                  width: 200px;
+                  }
+                  #prvy9{
+                  border: #03C4A1 3px solid;
+                  height: 200px;
+                  width: 200px;
+                  }
+
+
+   h1{
+      font-size: 150px;
+      text-align: center;
+      color: red;
+      /* border: blue 5px solid; */
+   }
+
+
+/* ZADAVANIE MENA HRACOV */
+.hra1{
+   position:absolute;
+   
+   width: 500px;
+   height: 300px;
+   background-color: #03C4A1;
+   top: 50px;
+   left: 50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   border-radius: 20px;
+   flex-wrap: wrap;
+
+
+}
+.hra{
+   position: relative;
+   
+}
+
+.hra hra1{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   
+   
+}
+
+
+.formplayer11{
+   padding: 10px;
+font-size: 20px; 
+border-radius: 20px;  
+border: #7B6CF6 1px solid;
+margin: 0 30px;
+text-align: center;
+}
+.menozaciatok1{
+   color: #7B6CF6;
+   font-size: 30px;
+   font-weight: 800;
+}
+.menozaciatok2{
+   color: red;
+   font-size: 30px;
+   font-weight: 800;
+}
+
+#potvrdit{
+   font-size: 25px;
+   padding: 10px 50px;
+   border-radius: 20px;
+   border: black 0px solid;
+   background: #7B6CF6;
+}
+#potvrdit:hover{
+   display: flex;
+   border: black 0px solid;
+   background: red;
+}
+#vrchol{
+   background: #EEEEEE;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-evenly;
+   border-bottom: #03C4A1 5px solid;
+   align-items: center;
+}
+#statistka1{
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 300px;
+   height: 150px;   
+   
+}
+
+#menohraca1{
+   font-size: 40px;
+   color: #7B6CF6;
+   font-weight: 800;
+}
+#skore1{
+   font-size: 40px;
+   color: #7B6CF6;
+   font-weight: 800;
+}
+
+#statistka2{
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 300px;
+   height: 150px;
+   
+}
+#menohraca2{
+   font-size: 40px;
+   color: red;
+   font-weight: 800;
+}
+#skore2{
+   font-size: 40px;
+   color: red;
+   font-weight: 800;
+}
+
+
+
+@media only screen and (max-width: 641px)
+{
+  #prvy1{
+     border: green 3px solid;
+     height: 100px;
+     width: 100px;
+
+     }
+     #prvy2{
+     border: green 3px solid;
+     height: 100px;
+     width: 100px;
+     }
+     #prvy3{
+     border: green 3px solid;
+     height: 100px;
+     width: 100px;
+     }
+     #prvy4{
+     border: green 3px solid;
+     height: 100px;
+     width: 100px;
+     }
+     #prvy5{
+     border: green 3px solid;
+     height: 100px;
+     width: 100px;
+     }
+     #prvy6{
+     border: green 3px solid;
+     height: 100px;
+     width: 100px;
+     }
+     #prvy7{
+     border: green 3px solid;
+     height: 100px;
+     width: 100px;
+     }
+     #prvy8{
+     border: green 3px solid;
+     height: 100px;
+     width: 100px;
+     }
+     #prvy9{
+     border: green 3px solid;
+     height: 100px;
+     width: 100px;
+     }
+     h1{
+        font-size: 85px;
+        text-align: center;
+        color: red;
+        /* border: blue 5px solid; */
+     }
+     .hra1{ 
+        margin-top: 20px;
+        width: 350px;
+        height: 450px;
+        text-align: center;
+        display: flex;
+        top:-40px;
+        left: -25px;
+        justify-content: space-around;
+        
+     }
+     #obnovit{
+        margin-top: 20px;
+     }
+     #piskvorky{
+        display: flex;
+        
+     }
+     #menohraca1{
+        font-size: 30px;
+     }
+     #menohraca2{
+      font-size: 30px;
+   }
+   #skore1{
+      font-size: 30px;
+   }
+   #skore2{
+    font-size: 30px;
+ }
+ #statistka1{
+    height: 100px;
+    justify-content: space-evenly
+    ;
+ }
+    
+}
